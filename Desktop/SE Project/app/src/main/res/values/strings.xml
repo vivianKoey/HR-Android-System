@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_name2">HR Leave</string>
+    <string name="app_name3">Employee Data</string>
+    <string name="app_name5">Send Payslip</string>
+    <string name="app_name6">HR Claim</string>
+    <string name="app_name7">Employee Claim</string>
+    <string name="app_name8">Dashboard</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_act_hrpcbcal">actHRPCBCal</string>
+    <string name="app_name4">Apply Leave</string>
+    <string name="title_activity_act_generate_payslip2">actGeneratePayslip2</string>
+    <string name="title_activity_act_employee_data_hr">actEmployeeDataHR</string>
+    <string name="title_activity_act_send_payslip">actSendPayslip</string>
+    <string name="title_activity_email_view_model">EmailViewModel</string>
+    <string name="title_activity_act_login_page">actLoginPage</string>
+    <string name="image">ImageCompany</string>
+    <string name="title_activity_detail">activityDetail</string>
+    <string name="title_activity_act_em_update_em_info">actEmUpdateEmInfo</string>
+</resources>

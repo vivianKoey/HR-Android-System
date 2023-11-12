@@ -1,0 +1,4 @@
+ip:192.168.100.31
+port:1433
+username:weiwen
+password:ww@321

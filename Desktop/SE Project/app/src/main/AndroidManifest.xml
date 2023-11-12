@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACTION_OPEN_DOCUMENT" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".actFirstPage"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".backup.MainActivity3"
+            android:exported="true"
+            android:label="@string/title_activity_act_em_update_em_info"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".backup.actEmUpdateEmInfo"
+            android:exported="true"
+            android:label="@string/title_activity_act_em_update_em_info"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".backup.activityDetail"
+            android:exported="false"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actUpdateEmployeeDataHR"
+            android:exported="true"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".backup.activityDetailClaim"
+            android:exported="true"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actLoginPage"
+            android:exported="true"
+            android:label="@string/title_activity_act_login_page"
+            android:theme="@style/Theme.MyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".actEmDashboard"
+            android:exported="true"
+            android:label="@string/title_activity_act_login_page"
+            android:theme="@style/Theme.MyApplication"></activity>
+        <activity
+            android:name=".actCreatePost"
+            android:exported="true"
+            android:label="@string/title_activity_act_send_payslip"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actSendPayslip"
+            android:exported="true"
+            android:label="@string/title_activity_act_send_payslip"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actHRClaim"
+            android:exported="true"
+            android:label="@string/title_activity_act_send_payslip"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actEmClaim"
+            android:exported="true"
+            android:label="@string/title_activity_act_send_payslip"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actEmUpdatePassword"
+            android:exported="true"
+            android:label="@string/title_activity_act_send_payslip"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actEmployeeDataHR"
+            android:exported="true"
+            android:label="@string/title_activity_act_employee_data_hr"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actGeneratePayslip"
+            android:exported="true"
+            android:label="@string/title_activity_act_generate_payslip2"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actHRPCBCal"
+            android:exported="true"
+            android:label="@string/title_activity_act_hrpcbcal"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".backup.MainActivity2"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".actHRLeave"
+            android:exported="true"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actEmLeave"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".actEmData"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication" />
+    </application>
+
+</manifest>

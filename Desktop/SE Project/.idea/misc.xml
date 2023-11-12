@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/weiwen/Desktop/Latest SE Project code/MyApplication6 (3)/MyApplication6 (6)/MyApplication6 (5)/MyApplication6/app/src/main/res/layout/activity_main4.xml" value="0.2046875" />
+        <entry key="..\:/Users/weiwen/Desktop/SE Project/app/src/main/res/layout/activity_first_page.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/weiwen/Downloads/MyApplication6 (2)/MyApplication6 (6)/MyApplication6 (5)/MyApplication6/app/src/main/java/com/example/myapplication/activityDetail.kt" value="0.5234657039711191" />
+        <entry key="..\:/Users/weiwen/Downloads/MyApplication6 (2)/MyApplication6 (6)/MyApplication6 (5)/MyApplication6/app/src/main/res/drawable/image_company.xml" value="0.1" />
+        <entry key="..\:/Users/weiwen/Downloads/MyApplication6 (2)/MyApplication6 (6)/MyApplication6 (5)/MyApplication6/app/src/main/res/layout/activity_main2.xml" value="0.2328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
